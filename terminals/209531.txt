@@ -1,0 +1,77 @@
+---
+pid: 27716
+cwd: "C:\\Users\\dhananjay\\.cursor\\projects\\d-games-dilaver"
+command: "Set-Location \"C:\\Users\\dhananjay\\.cursor\\projects\\d-games-dilaver\"; npm run build"
+started_at: 2026-05-07T19:27:30.990Z
+running_for_ms: 288496   
+---
+
+> site@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings
+
+./src/components/WelcomeSection.tsx
+Attempted import error: 'Linkedin' is not exported from '__barrel_optimize__?names=Facebook,Globe2,Instagram,Linkedin,ShieldCheck,Truck,Wrench!=!lucide-react' (imported as 'Linkedin').
+
+Import trace for requested module:
+./src/components/WelcomeSection.tsx
+
+./src/components/WelcomeSection.tsx
+Attempted import error: 'Instagram' is not exported from '__barrel_optimize__?names=Facebook,Globe2,Instagram,Linkedin,ShieldCheck,Truck,Wrench!=!lucide-react' (imported as 'Instagram').
+
+Import trace for requested module:
+./src/components/WelcomeSection.tsx
+
+./src/components/WelcomeSection.tsx
+Attempted import error: 'Facebook' is not exported from '__barrel_optimize__?names=Facebook,Globe2,Instagram,Linkedin,ShieldCheck,Truck,Wrench!=!lucide-react' (imported as 'Facebook').
+
+Import trace for requested module:
+./src/components/WelcomeSection.tsx
+
+ ⚠ Compiled with warnings
+
+./src/components/WelcomeSection.tsx
+Attempted import error: 'Linkedin' is not exported from '__barrel_optimize__?names=Facebook,Globe2,Instagram,Linkedin,ShieldCheck,Truck,Wrench!=!lucide-react' (imported as 'Linkedin').
+
+Import trace for requested module:
+./src/components/WelcomeSection.tsx
+
+./src/components/WelcomeSection.tsx
+Attempted import error: 'Instagram' is not exported from '__barrel_optimize__?names=Facebook,Globe2,Instagram,Linkedin,ShieldCheck,Truck,Wrench!=!lucide-react' (imported as 'Instagram').
+
+Import trace for requested module:
+./src/components/WelcomeSection.tsx
+
+./src/components/WelcomeSection.tsx
+Attempted import error: 'Facebook' is not exported from '__barrel_optimize__?names=Facebook,Globe2,Instagram,Linkedin,ShieldCheck,Truck,Wrench!=!lucide-react' (imported as 'Facebook').
+
+Import trace for requested module:
+./src/components/WelcomeSection.tsx
+
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5)
+
+> Build error occurred
+[Error: ENOENT: no such file or directory, rename 'C:\Users\dhananjay\.cursor\projects\d-games-dilaver\.next\export\500.html' -> 'C:\Users\dhananjay\.cursor\projects\d-games-dilaver\.next\server\pages\500.html'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: 'C:\\Users\\dhananjay\\.cursor\\projects\\d-games-dilaver\\.next\\export\\500.html',
+  dest: 'C:\\Users\\dhananjay\\.cursor\\projects\\d-games-dilaver\\.next\\server\\pages\\500.html'
+}
+
+---
+exit_code: 1
+elapsed_ms: 290520
+ended_at: 2026-05-07T19:32:21.510Z
+---

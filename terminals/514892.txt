@@ -1,0 +1,25 @@
+---
+pid: 7788
+cwd: "C:\\Users\\dhananjay\\.cursor\\projects\\d-games-dilaver"
+command: "npm install next@15.2.4 eslint-config-next@15.2.4"
+started_at: 2026-05-07T19:24:20.463Z
+running_for_ms: 32209    
+---
+
+changed 2 packages, and audited 416 packages in 5s
+
+158 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 critical)
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+---
+exit_code: 0
+elapsed_ms: 35448
+ended_at: 2026-05-07T19:24:55.911Z
+---

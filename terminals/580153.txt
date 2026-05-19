@@ -1,0 +1,42 @@
+---
+pid: 30396
+cwd: "C:\\Users\\dhananjay\\.cursor\\projects\\d-games-dilaver"
+command: "npm run build"
+started_at: 2026-05-07T19:33:41.103Z
+running_for_ms: 42671    
+---
+
+> site@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    61.6 kB         162 kB
+└ ○ /_not-found                            977 B         102 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/4bd1b696-e1c0daab0514922a.js  53.2 kB
+  ├ chunks/684-ab376a329993a08f.js       45.3 kB
+  └ other shared chunks (total)          1.98 kB
+
+
+○  (Static)  prerendered as static content
+
+
+---
+exit_code: 0
+elapsed_ms: 46939
+ended_at: 2026-05-07T19:34:28.042Z
+---
