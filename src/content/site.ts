@@ -53,34 +53,34 @@ export const images = {
 
 export const galleryCategories = [
   {
-    title: "Track & undercarriage",
-    src: "/gallery/track-workshop.png",
-    alt: "Heavy equipment fabrication with excavator bucket and robotic welding sparks",
+    title: "Undercarriage parts",
+    src: "/categories/undercarriage-parts.png",
+    alt: "Yellow track chain, idler, sprocket, roller, and recoil spring undercarriage spare parts with SEW branding",
   },
   {
-    title: "Ground engaging tools",
-    src: "/gallery/ground-engaging-showcase.png",
-    alt: "B2SEW display of bucket teeth, bolts, seals, and industrial bearings kits",
+    title: "Frames and body parts",
+    src: "/categories/frames-and-body-parts.png",
+    alt: "Excavator H-link structural body part with engraved SEW logo and Parts to perfection tagline",
   },
   {
     title: "Hydraulic systems",
-    src: "/gallery/hydraulic-industrial.png",
-    alt: "Large hex bolt with SEW engraving in an industrial machining context",
+    src: "/categories/hydraulic-systems.png",
+    alt: "Three B2SEW hydraulic pumps and motors on marble with power density, lifespan, and OEM quality callouts",
   },
   {
-    title: "Engine & cooling",
-    src: "/gallery/bearings-banner.png",
-    alt: "B2SEW tapered roller bearings and branded packaging banner",
+    title: "Ground engaging tools",
+    src: "/categories/ground-engaging-tools.png",
+    alt: "B2SEW bucket tooth with embossed branding and benefits including wear resistance and self-sharpening tip",
   },
   {
-    title: "Filters & consumables",
-    src: "/gallery/fastener-kit.png",
-    alt: "B2SEW heavy-duty hinge bolt set in branded packaging labeled 12.9 grade steel",
+    title: "Filters and consumables",
+    src: "/categories/filters-and-consumables.png",
+    alt: "SEW hydraulic filter on a workshop bench with filter benefits panel for duration, filtration, and OE-matched fit",
   },
   {
-    title: "Electrical & sensors",
-    src: "/gallery/precision-bolt.png",
-    alt: "Precision bolt head with B2SEW logo and Parts to perfection tagline engraving",
+    title: "Electrical parts",
+    src: "/categories/electrical-parts.jpg",
+    alt: "Assortment of electrical parts for heavy equipment including ECUs, displays, starter motor, sensors, and harnesses",
   },
 ] as const;
 
@@ -121,19 +121,19 @@ export const products = [
   {
     title: "Undercarriage",
     blurb: "Track groups, rollers, idlers, and sprockets built for severe duty cycles.",
-    image: "/1777799957951.png",
+    image: "/categories/undercarriage-parts.png",
     href: "#contact",
   },
   {
     title: "Hydraulics",
     blurb: "Precision seals, cylinders, and line assemblies for high-pressure systems.",
-    image: "/1777800546859.png",
+    image: "/categories/hydraulic-systems.png",
     href: "#contact",
   },
   {
-    title: "Fasteners & wear",
-    blurb: "Grades, coatings, and torque-ready hardware for assemblies that hold.",
-    image: "/1777997158758.png",
+    title: "Ground engaging",
+    blurb: "Bucket teeth and wear parts engineered for cutting force, fitment, and uptime in abrasive conditions.",
+    image: "/categories/ground-engaging-tools.png",
     href: "#contact",
   },
 ];
